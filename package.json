@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "next dev -H https://fb035e5504df431c807fd8460193a455.vfs.cloud9.us-east-1.amazonaws.com"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +13,11 @@
     "fs-extra": "^8.1.0",
     "ganache-cli": "^6.7.0",
     "mocha": "^6.2.2",
+    "next": "^4.1.4",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "solc": "^0.4.25",
+    "truffle-hdwallet-provider": "0.0.6",
     "web3": "^1.0.0-beta.35"
   }
 }
