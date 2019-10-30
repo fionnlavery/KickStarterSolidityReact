@@ -83,7 +83,6 @@ class CampaignShow extends Component {
                             </a>
                         </Link>
                         </Grid.Column>
-                        
                     </Grid.Row>
                 </Grid>
             </Layout>
